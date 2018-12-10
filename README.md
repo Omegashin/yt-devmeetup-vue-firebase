@@ -1,21 +1,23 @@
-# yt-devmeetup-vue
+# Developer Meetup Organizer
 
-A dev meetup application built with Vue + Vuetify + Firebase.
+A simple and quick meetup event manager for web developers. By using a Single Page Application structure, the website has zero loading between transitions. Using the Firebase realtime database as a storage solution, the App feels lighting fast.
 
-## Build Setup
+This App uses Veutify to implement eye-catching Material Design components with a depth based hierarchy model.
 
-``` bash
-# install dependencies
-npm install
+This App features Firebase supported secure user Authentication. Users can effortlessly sign up within seconds and start organizing their first meetup!
 
-# serve with hot reload at localhost:8080
-npm run dev
+### Try it • https://devmeetup-vue-js.firebaseapp.com/
 
-# build for production with minification
-npm run build
+## Landing Page
+![Landing Page](feature-img/index.jpg)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Meetup Events List
+![Event List](feature-img/list.jpg)
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Built using
+
+• VueJS Front-End
+
+• Vuetify Component library
+
+• Firebase Back-End
